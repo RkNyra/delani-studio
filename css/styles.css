@@ -4,3 +4,14 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.welcome p {
+    line-height: 1.5em;
+}
+
+.services {
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
