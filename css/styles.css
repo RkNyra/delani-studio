@@ -25,7 +25,7 @@
 
 input {
     display: inline;
-    width: 40%;
+    width: 35%;
     height: 37px;
     border-width: 1px 1px 2px 1px;
     border-color: white;
@@ -38,7 +38,7 @@ textarea {
     width: 70%;
     border-width: 2px;
     border-radius: 5px;
-    border-color: #333;
+    border-color: white;
     margin-top: 10px;
     background: transparent;
 }
