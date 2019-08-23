@@ -15,3 +15,30 @@
     background-repeat: no-repeat;
     height: 55vh;
 }
+
+.contact {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input {
+    display: inline;
+    width: 40%;
+    height: 37px;
+    border-width: 1px 1px 2px 1px;
+    border-color: white;
+    background: transparent;
+}
+
+textarea {
+    display: inline;
+    height: 300px;
+    width: 70%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #333;
+    margin-top: 10px;
+    background: transparent;
+}
