@@ -1,12 +1,23 @@
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+}
+
 .welcome {
     background-image: url(../assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    padding-top: 180px;
+    margin-bottom: 10vh;
 }
 
 .welcome p {
     line-height: 1.5em;
+}
+
+.mouse-click {
+    padding-top: 7vh;
 }
 
 .services {
