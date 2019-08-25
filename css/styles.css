@@ -67,22 +67,40 @@
     margin: 0.5vw;
 }
 
-
-/* #work4 {
+.work4,
+.work3,
+.work2,
+.work1,
+.work5,
+.work6,
+.work7,
+.work8 {
     position: relative;
+    display: inline;
+    width: 100%;
+    margin: 0%;
 }
 
-.work4 {
-    /* display: none; */
-
-
-/* position: relative;
-    top: 200px;
-    left: 0;
+.work4caption,
+.work3caption,
+.work2caption,
+.work1caption,
+.work5caption,
+.work6caption,
+.work7caption,
+.work8caption {
     width: 100%;
-    text-align: center;
-    color: rgb(245, 3, 3); 
- } */
+    height: 195px;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 55px;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgba(224, 208, 208, 0.7);
+}
 
 .contact {
     background-image: url(../assets/backgrounds/c_image.jpg);
