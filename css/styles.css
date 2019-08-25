@@ -20,11 +20,25 @@
     padding-top: 7vh;
 }
 
+#about {
+    margin-bottom: 10vh;
+}
+
 .services {
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 55vh;
+    padding-top: 14vh;
+    margin-bottom: 10vh;
+}
+
+.what-we-do {
+    margin-bottom: 10vh;
+}
+
+.portfolio {
+    margin-bottom: 10vh;
 }
 
 .contact {
@@ -32,6 +46,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    margin-bottom: 4vh;
 }
 
 input {
