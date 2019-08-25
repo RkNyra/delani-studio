@@ -18,10 +18,33 @@ $(document).ready(function() {
     });
 
 
-    $("#work4").hover(function() {
-        // $("#work4").fadeOut();
-        // $("#work4").fadeIn();
-        $(".work4").toggle(slow);
+    $(".work4").hover(function() {
+        $(".work4caption").toggle("7000ms");
+    });
+
+    $(".work3").hover(function() {
+        $(".work3caption").toggle("7000ms");
+    });
+
+    $(".work2").hover(function() {
+        $(".work2caption").toggle("7000ms");
+    });
+
+    $(".work1").hover(function() {
+        $(".work1caption").toggle("7000ms");
+    });
+    $(".work5").hover(function() {
+        $(".work5caption").toggle("7000ms");
+    });
+    $(".work6").hover(function() {
+        $(".work6caption").toggle("7000ms");
+    });
+    $(".work7").hover(function() {
+        $(".work7caption").toggle("7000ms");
+    });
+
+    $(".work8").hover(function() {
+        $(".work8caption").toggle("7000ms");
     });
 
     $("form").submit(function(e) {
