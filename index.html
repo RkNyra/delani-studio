@@ -43,7 +43,8 @@
 
         <div class="what-we-do text-center">
             <h1>WHAT WE DO</h1>
-            <div class="row">
+
+            <div class="row what-we-do-row">
                 <div class="col-md-4 text-center">
                     <img id="design" src="assets/services_icons/design_icon.png" alt="Design Icon">
                     <h4 class="design">Design</h4>
@@ -74,10 +75,20 @@
         </div>
 
 
+
+
         <div class="portfolio text-center">
             <h1>PORTFOLIO</h1>
             <div class="portfolio-images">
-                <img src="assets/portfolio/work4.jpg" alt="Work 4">
+
+
+                <img id="work4" src="assets/portfolio/work4.jpg" alt="Work 4">
+                <div class="carousel-caption">
+                    <p class="work4">Black Box Project</p>
+                </div>
+
+
+
                 <img src="assets/portfolio/work3.jpg" alt="Work 3">
                 <img src="assets/portfolio/work2.jpg" alt="Work 2">
                 <img src="assets/portfolio/work1.jpg" alt="Work 1">
@@ -92,10 +103,11 @@
 
         <div class="contact text-center">
             <h1>CONTACT US</h1>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email"><br>
+            <form id="contactForm">
+                <input id="name" type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required><br>
                 <textarea name="text" placeholder="Your message here..."></textarea>
+                <input type="submit" value="Send">
             </form>
         </div>
 

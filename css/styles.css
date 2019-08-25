@@ -41,6 +41,10 @@
     padding-right: 5vw;
 }
 
+.what-we-do-row {
+    margin-top: 30px;
+}
+
 .design,
 .development,
 .management {
@@ -63,11 +67,29 @@
     margin: 0.5vw;
 }
 
+
+/* #work4 {
+    position: relative;
+}
+
+.work4 {
+    /* display: none; */
+
+
+/* position: relative;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(245, 3, 3); 
+ } */
+
 .contact {
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    padding-top: 15vh;
     margin-bottom: 4vh;
     color: white;
 }
@@ -95,4 +117,13 @@ textarea {
 ::placeholder {
     color: white;
     font-weight: 700;
+}
+
+input[type=submit] {
+    border-width: 3px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
 }
