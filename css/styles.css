@@ -1,6 +1,7 @@
 .container-fluid {
     width: 100vw;
     height: 100vh;
+    font-family: 'Yatra One', 'cursive';
 }
 
 .welcome {
