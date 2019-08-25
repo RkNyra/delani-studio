@@ -3,7 +3,7 @@
 ##### By **Rhoda Kimanga (RK Nyra)**
 
 ### Description
-This is the <a href="">Delani Studio Website,</a> designed as the Studio's marketing tool and a platform to reach out and be reached by its clients. You can view it <a href="">here.</a>
+This is the <a href="https://rknyra.github.io/delani-studio/">Delani Studio Website,</a> designed as the Studio's marketing tool and a platform to reach out and be reached by its clients. You can view it <a href="https://rknyra.github.io/delani-studio/">here.</a>
 
 ### Setup/Installation Requirements
 * Text editer - I used Visual Studio
