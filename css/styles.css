@@ -34,11 +34,33 @@
 }
 
 .what-we-do {
+    width: 90vw;
+    margin: auto;
     margin-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.design,
+.development,
+.management {
+    display: none;
 }
 
 .portfolio {
+    width: 90vw;
+    margin: auto;
     margin-bottom: 10vh;
+}
+
+.portfolio-images {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.portfolio img {
+    width: 22%;
+    margin: 0.5vw;
 }
 
 .contact {
@@ -47,6 +69,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     margin-bottom: 4vh;
+    color: white;
 }
 
 input {
@@ -67,4 +90,9 @@ textarea {
     border-color: white;
     margin-top: 10px;
     background: transparent;
+}
+
+::placeholder {
+    color: white;
+    font-weight: 700;
 }
