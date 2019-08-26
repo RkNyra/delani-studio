@@ -92,12 +92,12 @@
 .work7caption,
 .work8caption {
     width: 85%;
-    height: 195px;
+    height: 180px;
     position: absolute;
     top: 99%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 55px;
+    padding-top: 45px;
     color: black;
     font-size: 25px;
     font-weight: 700;

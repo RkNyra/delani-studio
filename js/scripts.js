@@ -8,13 +8,14 @@ $(document).ready(function() {
     $("#development, .development").click(function() {
         $("#development").toggle();
         $(".development").toggle();
-        document.querySelectorAll("h4").style.fontWeight = "700";
+        $("h4").css("font-weight", "700");
+
     });
 
     $("#management, .management").click(function() {
         $("#management").toggle();
         $(".management").toggle();
-        document.getElementsByTagName("h4").style.fontWeight = "700";
+        $("h4").css("font-weight", "700");
     });
 
 
