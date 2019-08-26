@@ -1,19 +1,19 @@
 $(document).ready(function() {
     $("#design, .design").click(function() {
-        $("#design").toggle();
+        $("#design, #desHeading").toggle();
         $(".design").toggle();
         document.querySelector("h4").style.fontWeight = "700";
     });
 
     $("#development, .development").click(function() {
-        $("#development").toggle();
+        $("#development, #devHeading").toggle();
         $(".development").toggle();
         $("h4").css("font-weight", "700");
 
     });
 
     $("#management, .management").click(function() {
-        $("#management").toggle();
+        $("#management, #mgtHeading").toggle();
         $(".management").toggle();
         $("h4").css("font-weight", "700");
     });
